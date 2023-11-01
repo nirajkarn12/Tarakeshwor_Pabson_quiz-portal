@@ -90,70 +90,70 @@
     var stopwatchRunning = false;
 
     document.getElementById("audio1").addEventListener("click", function() {
-        playAudio("rabi.mp3");
+        playAudio("resources/audio/rabi.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio2").addEventListener("click", function() {
-        playAudio("rajesh.mp3");
+        playAudio("resources/audio/rajesh.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio3").addEventListener("click", function() {
-        playAudio("sushant.mp3");
+        playAudio("resources/audio/sushant.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio4").addEventListener("click", function() {
-        playAudio("kp.mp3");
+        playAudio("resources/audio/kp.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio5").addEventListener("click", function() {
-        playAudio("sher.mp3");
+        playAudio("resources/audio/sher.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio6").addEventListener("click", function() {
-        playAudio("yama.mp3");
+        playAudio("resources/audio/yama.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio7").addEventListener("click", function() {
-        playAudio("magne.mp3");
+        playAudio("resources/audio/magne.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio8").addEventListener("click", function() {
-        playAudio(" Balen.mp3");
+        playAudio("resources/audio/Balen.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio9").addEventListener("click", function() {
-        playAudio("Prakash.mp3");
+        playAudio("resources/audio/Prakash.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
     });
 
     document.getElementById("audio10").addEventListener("click", function() {
-        playAudio("prachanda.mp3");
+        playAudio("resources/audio/prachanda.mp3");
         if (!stopwatchRunning) {
             startStopwatch();
         }
@@ -198,6 +198,7 @@
 
     function playBeepSound() {
         const beepAudio = document.getElementById("beepAudio");
+        beepAudio.src = "resources/audio/beep.mp3";
         beepAudio.play();
     }
 
